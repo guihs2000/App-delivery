@@ -1,0 +1,168 @@
+#img-logo{
+  
+    width: 140px;
+    height: 140px;
+    z-index: 1;
+    position: absolute;
+    right: 1em;
+    top: -19px;
+    
+}
+
+#barra-menu{
+    position: fixed;
+    z-index: 2;
+    margin-top: 3.4em;
+}
+
+#produtos{
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+    display: inline-block;
+    width: 100%;
+
+    
+    
+}
+
+#produtos img{
+    width: 150px;
+    height: 150px;
+    float: center;
+    color: rgb(190, 190, 190);
+
+}
+
+
+#container-logo{
+    position: absolute;
+    z-index: 3;
+    background-color: brown;
+    height: 56px;
+    top: 0;
+   
+}
+#carouselExampleFade{
+    margin-top: 7.1em;
+   
+}
+
+
+#titulos h5{
+    color: coral;
+
+}
+#titulos p{
+    color:#3d3d3d ;
+
+}
+
+.card {
+ width: 150px;
+ margin: 0;
+ padding: 0;
+ display: inline-block;
+
+
+}
+.card img{
+    width: 100px;
+}
+
+#botao-escolher{
+    border-radius: 15px;
+}
+
+.categorias{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    display: inline-block;
+    
+    
+   
+}
+#bloco-categorias{
+    margin-bottom: 7rem;
+}
+
+.categorias img{
+    width: 50px;
+    float: right;
+
+}
+.btn-light{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    height: 75px;
+
+}
+
+
+#imagem-modal{
+    width: 150px;
+}
+#preços-adicionais{
+    float: right;
+}
+.adicionais{
+    float: right;
+}
+
+#carrinho {
+    background: #eeeeee;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top:5em;   
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+#carrinho a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+
+.imagem-favicon{
+    padding: 5px;
+    margin-right:0.3em;
+}
+#Sacola{
+    background-color:#ffaa00;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 50px;
+    margin-top:5em;   
+    padding: 5px;
+    color: #0a0a0a; 
+    z-index: 3;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
