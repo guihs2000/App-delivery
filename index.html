@@ -1,12 +1,248 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meu app de delivery</title>
-</head>
-<body>
-    <h1>olá mundo</h1>
-</body>
-</html>
+<! doctype html>
+<html lang = "pt-br">
+  <head>
+  
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "largura = largura do dispositivo, escala inicial = 1">
+
+   
+    <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel = "stylesheet" Integrity = "sha384-BmbxuPwQa2lc / FVzBcNJ7UAyJxM6wuqsIzH61 /tl + nYRRuWlolflfl "crossorigin =" anônimo ">
+    <link href = "style.css" rel = "stylesheet">
+    <title> Cardápio Sabor </title>
+  </head>
+  <body>
+    <! - carrossel ->
+    <div class = "container-fluid">
+        <div class = "row col-lg-12" id = "carrossel">
+         <div id = "carouselExampleFade" class = "carrossel slide carrossel-fade" data-bs-ride = "carousel">
+             <div class = "carousel-inner">
+               <div class = "carrossel-item ativo">
+                 <img src = "img / banner.png" class = "d-block w-100" alt = "...">
+               </div>
+               <div class = "carousel-item">
+                 <img src = "img / banner.png" class = "d-block w-100" alt = "...">
+               </div>
+               <div class = "carousel-item">
+                 <img src = "img / banner.png" class = "d-block w-100" alt = "...">
+               </div>
+             </div>
+             <button class = "carousel-control-prev" type = "button" data-bs-target = "# carouselExampleFade" data-bs-slide = "prev">
+               <span class = "carousel-control-prev-icon" aria-hidden = "true"> </span>
+               <span class = "visually-hidden"> Anterior </span>
+             </button>
+             <button class = "carousel-control-next" type = "button" data-bs-target = "# carouselExampleFade" data-bs-slide = "next">
+               <span class = "carousel-control-next-icon" aria-hidden = "true"> </span>
+               <span class = "visually-hidden"> Próxima </span>
+             </button>
+           </div>
+      </div>
+    </div>
+           <! - categorias ->
+            <div class = "container" id = "categorias">
+              <div class = "row">
+                <div class = "categorias">
+                 <button type = "button" class = "btn btn-light"> PIZZAS <img src = "img / pizza.png" class = "card-img-top" alt = "..."> </button>
+                 <button type = "button" class = "btn btn-light"> HAMBURGUER <img src = "img / hamburguer.png" class = "card-img-top" alt = "..."> </button>
+                 <button type = "button" class = "btn btn-light"> MACARRÃO <img src = "img / espaguete.png" class = "card-img-top" alt = "..."> </button>
+                 <button type = "button" class = "btn btn-light"> AÇAI <img src = "img / açai.png" class = "card-img-top" alt = "..."> </button>
+                 <button type = "button" class = "btn btn-light"> PORÇÕES <img src = "img / porçoes.png" class = "card-img-top" alt = "..."> </button>
+                 <button type = "button" class = "btn btn-light"> BEBIDAS <img src = "img / bebidas.png" class = "card-img-top" alt = "..."> </button>
+                </div>
+              </div>
+            </div>
+     <! - produtos ->
+ <div class = "container-fluid" id = "bloco-categorias" style = "">
+     <div class = "row col-12">
+         <div class = "card" id = "produtos">
+             <img src = "img / pizza.png" class = "card-img-top mx-auto d-block" alt = "...">
+             <h6 class = "card-title text-center"> PIZZAS </h6>
+             <ul class = "list-group list-group-flush">
+                 <div class = "card-body" id = "titulos">  
+                       <h5 class = "card-title text-center" id = "titulo-categorias"> Pizza à moda </h5>
+                       <h6 class = "card-title text-center"> molho cebola tomate bacon queijo pimentão e orégano </h6>
+                       <p class = "card-text-center"> R $ 15,00 </p>
+                    </div>              
+                  <button type = "button" class = "btn btn-danger" id = "botao-escolher" data-despedir = "modal" data-bs-toggle = "modal" data-bs-target = "# sitemodal"> Escolher </button>
+             </ul>
+           </div>
+           <div class = "card" id = "produtos">
+             <img src = "img / pizza.png" class = "card-img-top mx-auto d-block" alt = "...">
+             <h6 class = "card-title text-center"> PIZZAS </h6>
+             <ul class = "list-group list-group-flush">
+                 <div class = "card-body" id = "titulos">  
+                       <h5 class = "card-title text-center" id = "titulo-categorias"> Pizza à moda </h5>
+                       <h6 class = "card-title text-center"> molho cebola tomate bacon queijo pimentão e orégano </h6>
+                       <p class = "card-text-center"> R $ 15,00 </p>
+                    </div>              
+                  <button type = "button" class = "btn btn-danger" id = "botao-escolher" data-despedir = "modal" data-bs-toggle = "modal" data-bs-target = "# sitemodal"> Escolher </button>
+             </ul>
+           </div>
+           <div class = "card" id = "produtos">
+             <img src = "img / pizza.png" class = "card-img-top mx-auto d-block" alt = "...">
+             <h6 class = "card-title text-center"> PIZZAS </h6>
+             <ul class = "list-group list-group-flush">
+                 <div class = "card-body" id = "titulos">  
+                       <h5 class = "card-title text-center"> Pizza à moda </h5>
+                       <h6 class = "card-title text-center"> molho cebola tomate bacon queijo pimentão e orégano </h6>
+                       <p class = "card-text-center"> R $ 15,00 </p>
+                    </div>              
+                  <button type = "button" class = "btn btn-danger" id = "botao-escolher" data-despedir = "modal" data-bs-toggle = "modal" data-bs-target = "# sitemodal"> Escolher </button>
+             </ul>
+           </div>
+           <div class = "card" id = "produtos">
+             <img src = "img / pizza.png" class = "card-img-top mx-auto d-block" alt = "...">
+             <h6 class = "card-title text-center"> PIZZAS </h6>
+             <ul class = "list-group list-group-flush">
+                 <div class = "card-body" id = "titulos">  
+                       <h5 class = "card-title text-center"> Pizza à moda </h5>
+                       <h6 class = "card-title text-center"> molho cebola tomate bacon queijo pimentão e orégano </h6>
+                       <p class = "card-text-center"> R $ 15,00 </p>
+                    </div>              
+                  <button type = "button" class = "btn btn-danger" id = "botao-escolher" data-despedir = "modal" data-bs-toggle = "modal" data-bs-target = "# sitemodal"> Escolher </button>
+             </ul>
+           </div>
+     </div>
+ </div>
+       <! - menu inferior sacola ->
+       <div class = "container-fluid">
+         <div class = "row text-center" id = "Sacola">
+             <div class = "col-4"> <img src = "img / pedido.svg" class = "imagem-favicon" alt = "..."> </div>
+             <div class = "col-4"> Total </div>
+             <div class = "col-4"> <p> R $ 54,99 </p> </div>
+       </div>
+     </div>
+   <! - menu inferior ->
+ <div class = "container-fluid">
+   <div class = "row text-center" id = "carrinho">
+       <div class = "col-6"> <a href="#"> <img src = "img / bag.svg" class = "imagem-favicon" alt = "..."> Meu Pedido </a> </div>
+       <div class = "col-6"> <a href="checkout.php"> <img src = "img / bag.svg" class = "imagem-favicon" alt = "..."> Finalizar o Pedido < / a> </div>
+
+ </div>
+</div>
+</section>
+ <! - modal adicionais ->
+ <div class = "modal fade" id = "sitemodal" tabindex = "- 1">
+    <div class = "modal-dialog">
+    <div class = "modal-content">
+        <div class = "modal-header">
+          <h5 class = "card-title text-center"> Pizza à moda </h5>
+          <button type = "button" class = "btn-close" data-bs-despedir = "modal" aria-label = "Fechar"> </button>
+        </div>
+        <div class = "modal-body">
+          <img src = "img / pizza.png" id = "imagem-modal" class = "card-img-top mx-auto d-block" alt = "...">
+          <p class = "card-text text-center"> <img src = "img / relogio.svg"> Tempo Médio de espera 30-50 min </p>
+          <p class = "card-text-center"> Ingredientes </p>
+          <h6 class = "card-title text-center"> molho cebola tomate bacon queijo pimentão e orégano </h6>
+          <p class = "card-text-center"> Deseja Adicionais </p>
+          <div class = "form-check">
+            <label class = "form-check-label" for = "flexCheckDefault" id = "nome-adicionais">
+              Bacon
+            </label>
+            <br>
+            <label class = "form-check-label" for = "flexCheckDefault">
+              R $ 3,00
+            </label>
+            <div class = "adicionais">
+            <button type = "button" class = "btn btn-outline-danger"> - </button>
+            <button type = "button" class = "btn btn-primary bg-light"> <span class = "badge bg-secondary"> 4 </span>
+            </button>
+            <button type = "button" class = "btn btn-outline-danger"> + </button>
+          </div>
+          <hr>
+          <label class = "form-check-label" for = "flexCheckDefault">
+            Bacon
+          </label>
+          <br>
+          <label class = "form-check-label" for = "flexCheckDefault">
+            R $ 3,00
+          </label>
+          <div class = "adicionais">
+          <button type = "button" class = "btn btn-outline-danger"> - </button>
+          <button type = "button" class = "btn btn-primary bg-light"> <span class = "badge bg-secondary"> 4 </span>
+          </button>
+          <button type = "button" class = "btn btn-outline-danger"> + </button>
+        </div>
+        <hr>
+        <label class = "form-check-label" for = "flexCheckDefault">
+          Bacon
+        </label>
+        <br>
+        <label class = "form-check-label" for = "flexCheckDefault">
+          R $ 3,00
+        </label>
+        <div class = "adicionais">
+        <button type = "button" class = "btn btn-outline-danger"> - </button>
+        <button type = "button" class = "btn btn-primary bg-light"> <span class = "badge bg-secondary"> 4 </span>
+        </button>
+        <button type = "button" class = "btn btn-outline-danger"> + </button>
+      </div>
+      <hr>
+      <label class = "form-check-label" for = "flexCheckDefault">
+        Bacon
+      </label>
+      <br>
+      <label class = "form-check-label" for = "flexCheckDefault">
+        R $ 3,00
+      </label>
+      <div class = "adicionais">
+      <button type = "button" class = "btn btn-outline-danger"> - </button>
+      <button type = "button" class = "btn btn-primary bg-light"> <span class = "badge bg-secondary"> 4 </span>
+      </button>
+      <button type = "button" class = "btn btn-outline-danger"> + </button>
+    </div>
+    <hr> 
+     <! - detalhes sobre seu pedido ->
+          <div class = "form-floating">
+            <h6 class = "card-title text-center"> Alguma observação? </h6>
+            <textarea class = "form-control" placeholder = "Deixe um comentário aqui" id = "floatingTextarea2" style = "height: 150px"> </textarea>
+            <label for = "floatingTextarea2" style = "margin-top: 5%;" > Ex: Não quero cebola </label>
+          </div>
+        </div>
+        <div class = "modal-footer">
+          <div class = "adicionais">
+            <button type = "button" class = "btn btn-outline-danger"> - </button>
+            <button type = "button" class = "btn btn-primary bg-light"> <span class = "badge bg-secondary"> 4 </span>
+            </button>
+            <button type = "button" class = "btn btn-outline-danger"> + </button>
+          </div>                  
+          <button type = "button" class = "btn btn-danger"> Adicionar R $ 25,00 </button>
+        </div>
+    </div>
+    </div>
+</div>
+
+   <cabeçalho
+    
+    class = "row fixed-top">
+       <div class = "container" id = "container-logo">
+           <div class = "row">
+               <div class = "col-lg-12" id = "barra-logo">
+                <div class = "container p-4" id = "img-logo">
+                    <div class = "col-12 mx-auto">
+                   <a href="index.php"> <img src = "img / logo.png" class = "rounded-circle img-fluid nx-auto"> </a> 
+                 </div>
+                </div>
+               </div>
+           </div>
+       </div>
+        <nav class = "navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id = "barra-menu">
+            <div class = "container">
+            <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "# navbarTogglerDemo01" aria-controls = "navbarTogglerDemo01" aria-extended = "false" aria-label = "Alternar navegação">
+                <span class = "navbar-toggler-icon"> </span>
+            </button>
+            <div class = "collapse navbar-collapse" id = "navbarTogglerDemo01">
+                <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
+                <li class = "nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.php"> Inicio </a>
+                </li>
+                <li class = "nav-item">
+                    <a class="nav-link" href="#"> Meus Pedidos </a>
+                </li>
+                <li class = "nav-item">
+                    <a class="nav-link" href="#"> Sacola </a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+   </header>
